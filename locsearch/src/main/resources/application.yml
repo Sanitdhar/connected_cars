@@ -1,0 +1,24 @@
+cache:
+  geo-location:
+    name: geoLocation
+    maximumSize: 50
+    expireAfterWrite: 3500
+  discover-by-category:
+    name: discoverByCategory
+    maximumSize: 50
+    expireAfterWrite: 3500
+
+secrets:
+  app-id: oHTmbfmi9IDxq7sayra5
+  api-key: urmhcSVZRM2No2X8IVQOOVsP9kCoNDEH3teAZ1oGtGg
+
+server:
+  servlet:
+    session:
+      cookie:
+        http-only: true
+  port: 2020
+
+here-maps:
+  geo-location: https://geocode.search.hereapi.com/v1/geocode
+  discover-by-category: https://places.ls.hereapi.com/places/v1/discover/explore

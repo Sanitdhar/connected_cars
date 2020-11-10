@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "title": "Brandenburger Tor",
+      "id": "here:pds:place:276u33db-8ee2e0de906e459cbade0593986debe9",
+      "resultType": "place",
+      "address": {
+        "label": "Brandenburger Tor, Pariser Platz 1, 10117 Berlin, Deutschland",
+        "countryCode": "DEU",
+        "countryName": "Deutschland",
+        "stateCode": "BE",
+        "state": "Berlin",
+        "countyCode": "B",
+        "county": "Berlin",
+        "city": "Berlin",
+        "district": "Mitte",
+        "street": "Pariser Platz",
+        "postalCode": "10117",
+        "houseNumber": "1"
+      },
+      "position": {
+        "lat": 52.51628,
+        "lng": 13.37771
+      },
+      "access": [
+        {
+          "lat": 52.5163,
+          "lng": 13.37799
+        }
+      ],
+      "categories": [
+        {
+          "id": "300-3000-0025",
+          "name": "Historisches Bauwerk",
+          "primary": true
+        },
+        {
+          "id": "300-3000-0000",
+          "name": "Sehenswürdigkeit"
+        },
+        {
+          "id": "700-7400-0133",
+          "name": "Reiseagentur"
+        },
+        {
+          "id": "700-7460-0115",
+          "name": "Touristeninformation"
+        }
+      ],
+      "scoring": {
+        "queryScore": 0.99,
+        "fieldScore": {
+          "city": 1.0,
+          "placeName": 0.94
+        }
+      }
+    }
+  ]
+}
