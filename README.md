@@ -10,3 +10,6 @@ Steps:
   OR 'docker pull sanitdhar25/locationsearch' followed by 'docker tag sanitdhar25/locationsearch location-search'
 2. To run docker image 'docker run --name=locsearch -p 2020:2020 location-search'
 
+To test the api in local, hit the below url:
+http://localhost:2020/discover?name=Brandenburge%20Tor,Berlin
+
